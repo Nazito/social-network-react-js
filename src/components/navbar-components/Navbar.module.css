@@ -1,0 +1,21 @@
+.App_nav {
+  grid-area: nav;
+  background: green;
+  padding: 0.5em;
+}
+.item {
+  width: 100%;
+  margin-bottom: 3px !important;
+}
+
+.item a {
+  text-decoration: none;
+  color: #383838;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+}
+
+.item a.activeLink {
+  color: gold;
+}

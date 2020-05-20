@@ -1,0 +1,11 @@
+.App_header {
+  grid-area: header;
+  background: #555;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App_header img {
+  width: 140px;
+}
